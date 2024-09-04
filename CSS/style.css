@@ -2,6 +2,139 @@ body {
     font-family: "Gilroy-Medium-☞", Helvetica;
 }
 
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 170px;
+}
+
+.aryanlogo {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 60px;
+    font-size: 15px;
+    font-family: "Outfit", sans-serif;
+    color: #676767;
+
+
+    li {
+        transition: 0.5s;
+        cursor: pointer;
+
+
+        &:hover {
+            transform: scale(1.05);
+            color: #00bfa6;
+
+
+        }
+    }
+
+
+}
+
+.nav-connect {
+    padding: 15px 50px;
+    font-size: 16px;
+    border-radius: 16px 16px 16px 16px;
+    background: #00bfa6;
+    font-family: "Inter", Sans-serif;
+    cursor: pointer;
+    transition: 0.5s;
+    border: none;
+
+    &:hover {
+        transform: scale(1.05);
+        background: #00bfa6;
+        color: black;
+    }
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+
+.headline {
+    font-size: 20px;
+    width: 50%;
+    text-align: center;
+
+}
+
+.post {
+    font-size: 68px;
+
+
+}
+
+.tap {
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.bt1 {
+    padding: 15px 50px;
+    font-size: 16px;
+    border-radius: 5px;
+    background: #00bfa6;
+    font-family: "Inter", Sans-serif;
+    cursor: pointer;
+    transition: 0.5s;
+    border: none;
+
+    &:hover {
+        transform: scale(1.05);
+        background: #00bfa6;
+        color: black;
+    }
+}
+
+.bt2 {
+    padding: 15px 50px;
+    font-size: 16px;
+    border-radius: 5px;
+    background: rgb(247, 212, 146);
+    font-family: "Inter", Sans-serif;
+    cursor: pointer;
+    transition: 0.5s;
+    border: black;
+
+    &:hover {
+        transform: scale(1.05);
+        background: #00bfa6;
+        color: black;
+        border: black;
+    }
+}
+
+.btt {
+    row-gap: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.free {
+    color: #00bfa6;
+}
+
+.headline2 {
+    text-align: center;
+    font-size: 32px;
+    padding-top: 82px;
+}
+
 .serveices {
     width: 100%;
     height: 400px;
@@ -170,12 +303,12 @@ body {
 
 .img-title {
     font-family: "Gilroy-Bold-☞", Helvetica;
-    color: #25a4ad;
+    color: #00bfa6;
 }
 
 .button-1 {
     position: absolute;
-    top: 1300px;
+    top: 2150px;
     left: 855px;
 }
 
@@ -186,7 +319,7 @@ body {
     border: 2px solid #25a4ad;
     background: white;
     font-family: "Gilroy-Bold-☞", Helvetica;
-    color: #25a4ad;
+    color: #00bfa6;
     font-size: 17px;
     transition: all .2s linear;
 }
@@ -209,7 +342,7 @@ body {
     top: 500px;
     left: 0;
     border: 1px solid;
-    border-color: #25a4ad;
+    border-color: #00bfa6;
     transform: rotate(50deg);
 }
 
@@ -224,7 +357,7 @@ body {
 }
 
 .bold-text-1 {
-    color: #25a4ad;
+    color: #00bfa6;
 }
 
 .features {
@@ -266,7 +399,7 @@ a {
 
 .containers:hover {
     .heading {
-        color: #25a4ad;
+        color: #00bfa6;
     }
 
     box-shadow: 5px 5px 5px gray;
@@ -274,12 +407,69 @@ a {
     background: white;
 
     .link a {
-        color: #25a4ad;
+        color: #00bfa6;
     }
 }
 
-.button-2{
+.button-2 {
     position: absolute;
     margin-top: 50px;
     left: 855px;
+}
+
+* styles.css */ body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.footer-section h2 {
+    margin-top: 0;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 10px 0;
+}
+
+.footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    border-top: 1px solid #444;
+    padding-top: 10px;
+}
+
+.footer-bottom p {
+    margin: 0;
 }
