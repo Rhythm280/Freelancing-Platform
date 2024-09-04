@@ -432,8 +432,8 @@ footer {
 
 .footer-container {
     display: flex;
-    justify-content: space-around;
-    max-width: 1200px;
+    justify-content: space-between;
+    /* max-width: 900px; */
     margin: 0 auto;
 }
 
@@ -452,16 +452,19 @@ footer {
 }
 
 .footer-section ul li {
-    margin: 10px 0;
+    margin: 20px 0;
 }
 
 .footer-section ul li a {
     color: #fff;
     text-decoration: none;
+    transition: all .3s linear;
+    font-size: 18px;
 }
 
 .footer-section ul li a:hover {
-    text-decoration: underline;
+    color: #00bfa6;
+    font-size: 20px;
 }
 
 .footer-bottom {
