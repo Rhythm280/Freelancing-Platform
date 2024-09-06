@@ -46,9 +46,6 @@ body {
 
 }
 
-.nav-connect a{
-    text-decoration: none;
-}
 
 .nav-connect {
     padding: 15px 50px;
@@ -57,7 +54,7 @@ body {
     background: #00bfa6;
     font-family: "Inter", Sans-serif;
     cursor: pointer;
-    transition: 0.5s;
+    transition: all 0.5s linear;
     border: none;
 
     &:hover {
@@ -93,7 +90,7 @@ body {
     font-weight: 100;
 }
 
-.bt1 {
+.btn1 {
     padding: 15px 50px;
     font-size: 16px;
     border-radius: 5px;
