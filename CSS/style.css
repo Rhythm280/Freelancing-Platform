@@ -1,23 +1,26 @@
 body {
     font-family: "Gilroy-Medium-☞", Helvetica;
+    margin: 0;
+    padding: 0;
 }
 
 .navbar {
+    width: 101%;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 20px 170px;
+    justify-content: space-around;
+    margin-top: 20px;
 }
 
-.aryanlogo a{
+.aryanlogo a {
     text-decoration: none;
     font-family: "Bebas Neue", sans-serif;
     font-weight: 600;
     font-style: normal;
     font-size: 35px;
-    /* font-family: ;*/
-    
+}
 
+.log-in-btn {
+    margin-top: 10px;
 }
 
 .nav-menu {
@@ -27,7 +30,7 @@ body {
     gap: 60px;
     font-size: 15px;
     font-family: "Outfit", sans-serif;
-    color: #676767;
+    color: #000000;
 
 
     li {
@@ -56,6 +59,7 @@ body {
     cursor: pointer;
     transition: all 0.5s linear;
     border: none;
+    text-decoration: none;
 
     &:hover {
         transform: scale(1.05);
@@ -64,9 +68,81 @@ body {
     }
 }
 
+.fa-solid,
+.fa-bars {
+    display: none;
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+@media (max-width: 988px) {
+
+    /* Styles for screens smaller than 768px */
+
+    .fa-solid,
+    .fa-bars {
+        display: block;
+    }
+
+    .nav-menu {
+        /* margin-right: 2%; */
+        width: 7rem;
+        position: absolute;
+        display: block;
+        width: 93%;
+        left: 10px;
+        /* background: #00bfa6; */
+        border-radius: 5px;
+    }
+
+    .nav-menu li {
+        margin-top: 5px;
+        transition: all 0.5s linear;
+    }
+
+    .menu-btn button.active {
+        /* Add styles to indicate the button is active (e.g., change color) */
+        background: black;
+    }
+
+    .nav-menu{
+        display: none;
+        background: #00bfa6;
+    }
+
+    .nav-menu.show {
+        display: block;
+        /* Add any additional styles for the visible menu */
+    }
+
+    .icon {
+        border: none;
+        background: white;
+        cursor: pointer;
+        opacity: 0.7;
+    }
+
+    .main {
+        flex-direction: column;
+    }
+
+    .headline {
+        margin-left: 10rem;
+    }
+
+    .btt {
+        flex-direction: column;
+    }
+
+    .bt2 {
+        margin-top: 1rem;
+    }
+}
+
 .main {
+    margin-top: 5rem;
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
 
 }
 
@@ -151,7 +227,7 @@ body {
 .img-container {
     width: 100%;
     height: 100px;
-    background: #97f7ea ;
+    background: #97f7ea;
     justify-content: space-evenly;
     display: flex;
 }

@@ -20,7 +20,7 @@ input {
   position: relative;
   width: 100%;
   background-color: #fff;
-  min-height: 100vh;
+  min-height: 100rem;
   overflow: hidden;
 }
 

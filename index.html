@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <title>Launch Page</title>
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,19 +16,26 @@
 
     <nav>
         <div class='navbar'>
-            <div class='aryanlogo'><a href="index.html">Freelance<span class="free">Chowk</span></a></div>
-            <ul class='nav-menu'>
-                <li>HOME</li>
-                <li>FEATURES</li>
-                <li>SOLUTIONS</li>
-                <li>RESOURCES</li>
-                <li>PRICING</li>
-            </ul>
-            <a class="navbar" href="login.html">
-                <button class="nav-connect">
-                    Login
+            <div class='aryanlogo'>
+                <a href="index.html">Freelance<span class="free">Chowk</span></a>
+            </div>
+            <div class="menu-btn">
+                <button class="icon" onclick="mega_menu()">
+                    <i class="fa-solid fa-bars"></i>
                 </button>
-            </a>
+                <ul class='nav-menu'>
+                    <li>HOME</li>
+                    <li>FEATURES</li>
+                    <li>SOLUTIONS</li>
+                    <li>RESOURCES</li>
+                    <li>PRICING</li>
+                </ul>
+            </div>
+            <div class="log-in-btn">
+                <a class="nav-connect" href="login.html">
+                    Log-in
+                </a>
+            </div>
 
         </div>
     </nav>
@@ -207,6 +215,17 @@
             <p>&copy; 2024 FreelanceChowk.All rights reserved.</p>
         </div>
     </footer>
+
+    <script>
+        function mega_menu() {
+            const menuBtn = document.querySelector('.menu-btn');
+            const navMenu = document.querySelector('.nav-menu');
+
+            menuBtn.classList.toggle('active');
+            navMenu.classList.toggle('show');
+        }
+
+    </script>
 
 </body>
 
