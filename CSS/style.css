@@ -75,6 +75,10 @@ body {
     font-size: 25px;
 }
 
+.icon{
+    display: none;
+}
+
 @media (max-width: 988px) {
 
     /* Styles for screens smaller than 768px */
