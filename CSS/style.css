@@ -5,7 +5,7 @@ body {
 }
 
 .navbar {
-    width: 101%;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     margin-top: 20px;
@@ -82,6 +82,10 @@ body {
 @media (max-width: 988px) {
 
     /* Styles for screens smaller than 768px */
+
+.nav-connect {
+    padding: 10px 30px;
+}
 
     .fa-solid,
     .fa-bars {
@@ -482,13 +486,13 @@ body {
 .link {
     text-align: center;
     margin-top: 3rem;
+    transform: all 0.5s linear;
 }
 
 .link a {
     text-decoration: none;
     color: black;
     font-size: 20px;
-    transform: all 0.5s linear;
 }
 
 .containers:hover {
@@ -527,12 +531,11 @@ footer {
 .footer-container {
     display: flex;
     justify-content: space-between;
-    /* max-width: 900px; */
     margin: 0 auto;
 }
 
 .footer-section {
-    flex: 1;
+    /* flex: 1; */
     padding: 0 20px;
 }
 
@@ -569,4 +572,26 @@ footer {
 
 .footer-bottom p {
     margin: 0;
+}
+
+@media (max-width: 988px) {
+    .feature-containers {
+        display: block;
+        align-items: center;
+        margin-left: 17rem;
+        width: 100%;
+
+        .containers {
+            margin-top: 5rem;
+        }
+    }
+
+    .footer-container {
+        /* margin-top: 100rem; */
+        display: block;
+
+        .footer-section {
+            margin-top: 2rem;
+        }
+    }
 }
