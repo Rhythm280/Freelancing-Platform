@@ -83,9 +83,13 @@ body {
 
     /* Styles for screens smaller than 768px */
 
-.nav-connect {
-    padding: 10px 30px;
-}
+    .nav-connect {
+        padding: 10px 30px;
+    }
+
+    .aryanlogo a {
+        font-size: 30px;
+    }
 
     .fa-solid,
     .fa-bars {
@@ -102,11 +106,12 @@ body {
     }
 
     .icon {
+        margin: -5px;
         display: block;
     }
 
     .nav-menu li {
-        margin-top: 5px;
+        margin: 5px;
         transition: all 0.5s linear;
     }
 
@@ -134,10 +139,15 @@ body {
 
     .main {
         flex-direction: column;
+        width: 100%;
     }
 
     .headline {
-        margin-left: 10rem;
+        margin: 0.5rem;
+    }
+
+    .headline2 {
+        margin: .5rem;
     }
 
     .btt {
@@ -147,6 +157,19 @@ body {
     .bt2 {
         margin-top: 1rem;
     }
+
+    .text-wrap {
+        left: 0%;
+    }
+
+    .serveices p {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .text-wrap {
+        margin: 0px;
+    }
 }
 
 .main {
@@ -155,19 +178,14 @@ body {
 
 }
 
-
-
 .headline {
-    font-size: 20px;
+    font-size: 15px;
     width: 50%;
     text-align: center;
-
 }
 
 .post {
     font-size: 68px;
-
-
 }
 
 .tap {
@@ -224,8 +242,18 @@ body {
 
 .headline2 {
     text-align: center;
-    font-size: 32px;
+    font-size: 30px;
     padding-top: 82px;
+}
+
+.serveices p{
+    font-size: 50px;
+    text-align: center;
+}
+
+.text-wrap p {
+    font-size: 25px;
+    text-align: center;
 }
 
 .serveices {
@@ -268,18 +296,18 @@ body {
 
 .text {
     text-align: center;
-    margin: 50px;
-    margin-left: 250px;
-    margin-right: 250px;
+    /* margin: 50px; */
+    /* margin-left: 250px; */
+    /* margin-right: 250px; */
     font-size: 19px;
     font-family: "Inter", Sans-serif;
     color: #303030;
 }
 
-.text-wrap {
+/* .text-wrap {
     width: 100%;
     left: 25%;
-}
+} */
 
 .images {
     margin-left: 31em;
@@ -578,7 +606,7 @@ footer {
     .feature-containers {
         display: block;
         align-items: center;
-        margin-left: 17rem;
+        margin-left: -1rem;
         width: 100%;
 
         .containers {
