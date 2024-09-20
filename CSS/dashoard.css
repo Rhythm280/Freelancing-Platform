@@ -60,14 +60,19 @@ nav ul li a {
 
 }
 
-.logout-button button {
-    background-color: #00bfa6;
+.logout-button {
+    /* border-radius: 100%; */
+    background-color: whitesmoke;
     color: white;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
-    border-radius: 5px;
-    font-size: 16px;
+    border-radius: 50%;
+    /* font-size: 16px; */
+}
+
+.logout-button button{
+    border: none;
 }
 
 main {
