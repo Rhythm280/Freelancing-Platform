@@ -2,6 +2,7 @@ body {
     font-family: "Gilroy-Medium-☞", Helvetica;
     margin: 0;
     padding: 0;
+    /* overflow: hidden; */
 }
 
 .navbar {

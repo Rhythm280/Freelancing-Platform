@@ -24,7 +24,7 @@ input {
   overflow: hidden;
 }
 
-.container::before {
+.container:before {
   content: '';
   position: absolute;
   height: 2000px;
@@ -53,8 +53,7 @@ form {
   /*Distributes Flex-items along the Main Axis */
   justify-content: center;
   flex-direction: column;
-  padding: 0 5rem;
-  /*overflow: hidden;*/
+  /* overflow: hidden; */
   padding: 0rem 5rem;
   grid-column: 1 / 2;
   grid-row: 1 / 2;
@@ -79,7 +78,6 @@ form.sign-up-form {
 .input-field {
   max-width: 380px;
   width: 100%;
-
   height: 55px;
   background-color: #f0f0f0;
   margin: 10px 0;
