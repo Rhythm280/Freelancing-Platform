@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freelancer Dashboard</title>
+    <link rel="stylesheet" href="CSS/dashoard.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="dashboard-header">
+        <div class="logo">
+            <h1>FREELANCE<span>CHOWK</span></h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Dashboard</a></li>
+                <li><a href="#">Profile</a></li>
+                <li><a href="#">Jobs</a></li>
+                <li><a href="#">Messages</a></li>
+                <li><a href="#">Earnings</a></li>
+                <li><a href="#">Settings</a></li>
+            </ul>
+        </nav>
+        <div class="logout-button">
+            <button>Log out</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="sidebar">
+            <ul>
+                <li><a href="#">Overview</a></li>
+                <li><a href="#">My Jobs</a></li>
+                <li><a href="#">Proposals</a></li>
+                <li><a href="#">Messages</a></li>
+                <li><a href="#">Earnings</a></li>
+                <li><a href="#">Settings</a></li>
+            </ul>
+        </section>
+
+        <section class="dashboard-content">
+            <div class="overview-section">
+                <h2>Dashboard Overview</h2>
+                <div class="overview-cards">
+                    <div class="card">
+                        <h3>Active Jobs</h3>
+                        <p>3</p>
+                    </div>
+                    <div class="card">
+                        <h3>Pending Proposals</h3>
+                        <p>5</p>
+                    </div>
+                    <div class="card">
+                        <h3>Total Earnings</h3>
+                        <p>$1500</p>
+                    </div>
+                    <div class="card">
+                        <h3>Messages</h3>
+                        <p>2 Unread</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="jobs-section">
+                <h2>Recent Jobs</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Job Title</th>
+                            <th>Client</th>
+                            <th>Status</th>
+                            <th>Payment</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Website Development</td>
+                            <td>John Doe</td>
+                            <td>In Progress</td>
+                            <td>$500</td>
+                        </tr>
+                        <tr>
+                            <td>Logo Design</td>
+                            <td>Jane Smith</td>
+                            <td>Completed</td>
+                            <td>$200</td>
+                        </tr>
+                        <tr>
+                            <td>SEO Optimization</td>
+                            <td>Alex Brown</td>
+                            <td>Proposal Sent</td>
+                            <td>$300</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 FreelanceChowk. All rights reserved.</p>
+    </footer>
+</body>
+</html>
