@@ -19,6 +19,10 @@ header.dashboard-header {
     border-bottom: 1px solid #ccc;
 }
 
+.logo a{
+    text-decoration: none;
+}
+
 .logo h1 {
     font-size: 31px;
     color: #333;
