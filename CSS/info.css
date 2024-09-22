@@ -24,7 +24,7 @@ main {
 .tables {
     display: flex;
     /* margin: 1em; */
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .info {
@@ -80,4 +80,63 @@ main {
     border: 1px solid black;
     background: #ddd;
     border-radius: 50px;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.projects {
+    margin: 1em;
+    padding: 1em;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.project-infos {
+    display: flex;
+}
+
+.project-image img {
+    max-width: 400px;
+    max-height: 350px;
+    border-radius: 10px;
+}
+
+.project-image {
+    margin: 1em;
+}
+
+.end-date {
+    margin: 1em;
+    color: gray;
+    font-size: 20px;
+}
+
+.project-features {
+    max-width: 50%;
+}
+
+.project-features .feature {
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 50px;
+    background: #ddd;
+}
+
+.feature {
+    box-shadow: 5px 5px 5px gray;
+}
+
+.cost-duration {
+    margin-top: 1.5em;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 700px) {
+    .project-infos{
+        flex-direction: column;
+    }
+
+
 }
