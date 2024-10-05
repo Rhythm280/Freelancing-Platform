@@ -5,6 +5,10 @@ body {
     /* overflow: hidden; */
 }
 
+nav{
+    padding: 10px;
+}
+
 .navbar {
     width: 100%;
     display: flex;
