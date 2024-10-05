@@ -127,8 +127,8 @@ form {
 }
 
 input[type="radio"] {
-    position: absolute;
-    left: -999px;
+    /* position: absolute;
+    left: -999px; */
 }
 
 .btn-secondary {
