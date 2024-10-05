@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+
     <title>Sign-up</title>
 </head>
 
@@ -54,6 +55,16 @@
                 <div class="input-field">
                     <i class="fas fa-lock"></i>
                     <input type="password" placeholder="Password" />
+                </div>
+                <br>
+                <div class="radio-btn">
+                    <input type="radio" class="freelancer-btn option" value="Freelancer" name="options" id="option1"
+                        autocomplete="off" checked>
+                    <label class="btn btn-secondary" for="option1">Freelancer</label>
+
+                    <input type="radio" class="client-btn option" name="options" value="Client" id="option2"
+                        autocomplete="off">
+                    <label class="btn btn-secondary" for="option2">Client</label>
                 </div>
                 <input type="submit" class="btn" value="Sign up" />
                 <p class="social-text">Or Sign up with social platforms</p>
