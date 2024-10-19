@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="CSS/questionare.css">
-    <title>Freelancer Questionnaire</title>
+    <title>Clients Questionnaire</title>
 </head>
 
 <body>
@@ -53,85 +53,86 @@
 
                     <label for="phone">Phone Number:</label><br><br>
                     <input type="tel" id="phone" required placeholder="Contact Number">
+                    <br><br>
+
+                    <label for="country">Country:</label><br><br>
+                    <input type="text" id="country" required placeholder="Country">
                 </fieldset>
             </section>
 
             <section class="skills">
                 <fieldset class="your_skills">
                     <legend>
-                        <h2>Skills</h2>
+                        <h2>Project Details</h2>
                     </legend>
-                    <label for="inp-1">
-                        <input type="checkbox" name="C">C
-                    </input>
-                    </label>
-                    <label for="inp-2">
-                        <input type="checkbox" name="C++">C++
-                    </input>
-                    </label>
-                    <label for="inp-3">
-                        <input type="checkbox" name="C#">C#
-                    </input>
-                    </label>
-                    <label for="inp-4">
-                        <input type="checkbox" name="Java">Java
-                    </label>
-                    <label for="inp-5">
-                        <input type="checkbox" name="Python">Python
-                    </input>
-                    </label>
-                    <label for="inp-6">
-                        <input type="checkbox" name="JavaScript">JavaScript
-                    </input>
-                    </label>
-                    <label for="inp-7">
-                        <input type="checkbox" name="React">React
-                    </input>
-                    </label>
-                    <label for="inp-7">
-                        <input type="checkbox" name="Angular">Angular
-                    </input>
-                    </label>
-                    <label for="inp-7">
-                        <input type="checkbox" name="Django">Django
-                    </input>
-                    </label>
-                    <label for="inp-7">
-                        <input type="checkbox" name="SpringBoot">Spring
-                    </input>
-                    </label>
+
+                    <label for="projectType">Project Type</label>
+                    <select name="projectType" id="project_type" required>
+                        <option value="" disabled selected>Select project type</option>
+                        <option value="webDevelopment">Website Developement</option>
+                        <option value="appDevelopment">App Developement</option>
+                        <option value="graphicDeesign">Graphic Design</option>
+                        <option value="wriing">Writing</option>
+                        <option value="Editing">Editing</option>
+                    </select>
+                    <br><br>
+
+                    <label for="Description">Project Description </label>
+                    <textarea name="description" id="desctiption" required></textarea>
+                    <br><br>
+
+                    <label for="budget">Max-Budget</label>
+                    <input type="text" name="budget" id="budget" required placeholder="$100">
+                    <br><br>
+
+                    <label for="deadline">Min-Deadline</label>
+                    <input type="text" name="deadline" required placeholder="1 Weak">
+
                 </fieldset>
             </section>
 
-            <section class="experience">
+            <section class="payment">
                 <fieldset>
                     <legend>
-                        <h2>Experience</h2>
+                        <h2>Payment Informationn</h2>
                     </legend>
-                    <label for="experience">Briefly describe your experience</label><br><br>
-                    <textarea id="experience" rows="4" required></textarea><br><br>
+                    <label for="address">Billing Address</label>
+                    <input type="text" id="address" required placeholder="Billing Address">
+                    <br><br>
 
-                    <label for="portfolio">Link to your portfolio</label><br><br>
-                    <input type="url" id="portfolio" placeholder="Portfolio Link">
+                    <label for="method">Payment Method</label>
+                    <select name="paymentMethod" id="paymentMethod">
+                        <option value="" disabled selected>Select payment method</option>
+                        <option value="debitCard">Debit card</option>
+                        <option value="creditCard">Credit card</option>
+                        <option value="paypal">PayPal</option>
+                        <option value="upi">UPI</option>
+                    </select>
+
                 </fieldset>
             </section>
 
             <section class="project_preference">
                 <fieldset>
                     <legend>
-                        <h2>Project Preferences</h2>
+                        <h2>Preference and Interests</h2>
                     </legend>
-                    <label for="project-type">Preferred Project Type</label><br><br>
-                    <select id="project-type" required>
-                        <option value="" disabled selected>Select an option</option>
-                        <option value="short-term">Short-term</option>
-                        <option value="long-term">Long-term</option>
-                        <option value="part-time">Part-time</option>
+                    <label for="preference">Project Preference</label>
+                    <select name="preference" id="preference">
+                        <option value="" selected disabled>Select Project Preference</option>
+                        <option value="industry">Industry</option>
+                        <option value="niche">Niche</option>
                     </select>
                     <br><br>
 
-                    <label for="availability">Availability</label><br><br>
-                    <input type="text" id="availability" placeholder="e.g., 20 hours/week" required>
+                    <label for="communication">Communicatio Preeference</label>
+                    <select name="preference" id="preference">
+                        <option value="" selected disabled>Select communication Preference</option>
+                        <option value="email">E-Mail</option>
+                        <option value="chat">Chat</option>
+                        <option value="phone">Phone</option>
+                    </select>
+
                 </fieldset>
             </section>
             <br><br>
