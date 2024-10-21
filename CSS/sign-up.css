@@ -100,6 +100,7 @@ form {
 
 .social-text {
     padding: 0.7rem 0;
+    display: none;
 }
 
 .social-media {
@@ -120,6 +121,7 @@ form {
     font-size: 1.3rem;
     border-radius: 50%;
     transition: all 0.5s;
+    display: none;
 }
 
 .social-icon:hover {
